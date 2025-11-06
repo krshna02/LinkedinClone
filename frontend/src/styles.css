@@ -1,0 +1,143 @@
+/* 🌐 General Page Layout */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f3f2ef;
+  margin: 0;
+  color: #333;
+}
+
+main {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+/* 🔹 Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a66c2;
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+nav button {
+  background: white;
+  color: #0a66c2;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+nav button:hover {
+  background-color: #e5f1ff;
+}
+
+/* 🧾 Auth Forms */
+form {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+form h3 {
+  margin-top: 0;
+  color: #0a66c2;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 0.95rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #084c93;
+}
+
+/* 📝 Feed and Posts */
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-card {
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: 0.2s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-author {
+  font-weight: 600;
+  color: #0a66c2;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.post-text {
+  margin: 12px 0;
+  line-height: 1.4;
+}
+
+.like-btn {
+  background-color: transparent;
+  color: #0a66c2;
+  border: 1px solid #0a66c2;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.like-btn:hover {
+  background-color: #0a66c2;
+  color: white;
+}
